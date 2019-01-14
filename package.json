@@ -19,5 +19,8 @@
   "homepage": "https://github.com/okamototomoyuki1988/gas_task#readme",
   "dependencies": {
     "@types/google-apps-script": "0.0.34"
+  },
+  "devDependencies": {
+    "@types/gapi.client.sheets": "^4.0.0"
   }
 }
