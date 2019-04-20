@@ -155,11 +155,11 @@ class TableProc {
                 let dv = new Date(Date.UTC(0, 0, 0, 5, 0, 0, tmN.getTime() - tm.getTime()));
                 let sm = smStack[i];
 
-                sheet.getRange("AN" + (i + START)).setValue(sm);
+                sheet.getRange("AT" + (i + START)).setValue(sm);
 
-                sheet.getRange("AR" + (i + START)).setValue(this.format(tm, "hh:mm"));
-                sheet.getRange("AS" + (i + START)).setValue(this.format(tmN, "hh:mm"));
-                sheet.getRange("AT" + (i + START)).setValue(this.format(dv, "hh:mm"));
+                sheet.getRange("AU" + (i + START)).setValue(this.format(tm, "hh:mm"));
+                sheet.getRange("AV" + (i + START)).setValue(this.format(tmN, "hh:mm"));
+                sheet.getRange("AW" + (i + START)).setValue(this.format(dv, "hh:mm"));
             }
         }
     }
