@@ -156,10 +156,10 @@ class TableProc {
                 let sm = smStack[i];
 
                 sheet.getRange("AN" + (i + START)).setValue(sm);
-
-                sheet.getRange("AU" + (i + START)).setValue(this.format(tm, "hh:mm"));
-                sheet.getRange("AV" + (i + START)).setValue(this.format(tmN, "hh:mm"));
-                sheet.getRange("AW" + (i + START)).setValue(this.format(dv, "hh:mm"));
+                // 隙間
+                sheet.getRange("AX" + (i + START)).setValue(this.format(tm, "hh:mm"));
+                sheet.getRange("AY" + (i + START)).setValue(this.format(tmN, "hh:mm"));
+                sheet.getRange("AZ" + (i + START)).setValue(this.format(dv, "hh:mm"));
             }
         }
     }
