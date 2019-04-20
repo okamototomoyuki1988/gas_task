@@ -157,9 +157,9 @@ class TableProc {
 
                 sheet.getRange("AN" + (i + START)).setValue(sm);
 
-                sheet.getRange("AO" + (i + START)).setValue(this.format(tm, "hh:mm"));
-                sheet.getRange("AP" + (i + START)).setValue(this.format(tmN, "hh:mm"));
-                sheet.getRange("AQ" + (i + START)).setValue(this.format(dv, "hh:mm"));
+                sheet.getRange("AR" + (i + START)).setValue(this.format(tm, "hh:mm"));
+                sheet.getRange("AS" + (i + START)).setValue(this.format(tmN, "hh:mm"));
+                sheet.getRange("AT" + (i + START)).setValue(this.format(dv, "hh:mm"));
             }
         }
     }
